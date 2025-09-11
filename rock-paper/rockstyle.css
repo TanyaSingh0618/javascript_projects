@@ -1,0 +1,31 @@
+.btntype-rock {
+    background-color: #6464f8;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #6464f8;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btntype-paper {
+    background-color: #129603;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #129603;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btntype-scissor {
+    background-color: #c52c14;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #c52c14;
+    padding: 10px;
+    cursor: pointer;
+}
+.message {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
