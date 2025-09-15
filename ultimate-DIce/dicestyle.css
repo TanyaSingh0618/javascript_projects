@@ -20,4 +20,15 @@ button {
     padding: 10px;
     text-align: center;
     width: 550px;
+    cursor: pointer;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        transition: all 0.3s ease;
+    }
+    
+    button:hover {
+        background-image: linear-gradient(to left, #846af4, #c48df1);
+        color: #ffffff;
+        border-color: 1px solid #3910ee;
 }
