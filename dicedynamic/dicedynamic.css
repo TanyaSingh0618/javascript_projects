@@ -1,0 +1,64 @@
+.output {
+    width: 550px;
+    text-align: center;
+    font-size: 2em;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to left, #846af4, #c48df1);
+    color: #ffffff;
+    border-color: 1px solid #3910ee;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+
+.dicer {
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.viewer {
+    display: inline-block;
+    width: 211px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.namer {
+    display: inline-block;
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.gamearea {
+    margin-bottom: 5px;
+}
