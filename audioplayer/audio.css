@@ -1,0 +1,16 @@
+        .animal {
+            width: 100px;
+            height: 50px;
+            color: black;
+            text-align: center;
+            border: 1px solid black;
+            display: inline-block;
+            margin: 15px;
+            cursor: pointer;
+        }
+
+        .active {
+            border: 1px solid #005eff;
+            color: #005eff;
+            background-image: linear-gradient(to right, #005eff, #ffffff);
+        }
